@@ -13,7 +13,6 @@ cst_id,
 TRIM(cst_firstname) AS cst_firstname,
 TRIM(cst_lastname) AS cst_lastname,
 cst_material_status,
-cst_gndr,
 CASE WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'FEMALE'
 	WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'MALE'
 	ELSE 'N/A'
